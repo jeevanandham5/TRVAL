@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Gloock', serif;
+
+}
+.nav-container{
+    background-color: rgb(7, 88, 99);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    
+
+}
+.navbar-logo{
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bolder;
+    color: #fff;
+    font-size: xx-large;
+}
+.ham-menu{
+    position:absolute;
+    right: 0;
+    font-size: 50px;
+    visibility: hidden;
+}
+ul{
+    display: flex;
+    margin-right: 20px;
+    
+
+
+}
+li{
+    margin: 0 15px;
+    list-style: none;
+    font-size: larger;
+    font-weight: bold;
+  
+}
+.nav-links{
+    text-decoration: none;
+    color:antiquewhite;
+    letter-spacing: 0.10em;
+    margin-bottom: 5px;
+    letter-spacing:5cap;
+    padding-bottom: 20px;
+    transition: 0.10s;
+}
+.nav-links:hover{
+    border-bottom: 3px solid #fff ;
+    transition: 0.10s;
+    color: #fff;
+    
+    
+}
+
+
+/*css for footer*/
+
+.footer-container{
+    background-color: rgb(7, 88, 99);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+
+}
+.footer-icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+
+
+}
+.icon{
+margin-left: 50px;
+color: gray;
+
+
+}
+.footer-logo{
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: bolder;
+    color: gray;
+    font-size: medium;
+}
+.copy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: gray;
+    background-color: rgb(7, 88, 99);
+}
+h5{
+    font-size: small;
+    color: gray;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}

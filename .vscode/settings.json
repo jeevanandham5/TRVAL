@@ -1,0 +1,6 @@
+{
+    "emmet.extensionsPath": [
+        "dsznajder.es7-react-js-snippets"
+    ],
+    "emmet.showSuggestionsAsSnippets": true
+}
